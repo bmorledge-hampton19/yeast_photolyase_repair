@@ -18,7 +18,8 @@ sub new
 	#my $tf_file_name = "Reb1_10MNase_80mM_len50_sites_expanded.bed";
 	#my $tf_file_name = "../Rhee_SuppData1_TATA.bed";
 	#my $tf_file_name = "../PughTFchipexo_motifs_mcm1.bed";
-	my $tf_file_name = "../tfPugh_chipexo_sort.bed";
+	#my $tf_file_name = "../tfPugh_chipexo_sort.bed";
+	my $tf_file_name = "../tfPugh_chipexo_datafixed_final.bed";
 
 	open( GENE, $tf_file_name) || die "Couldn't open file\n";
 	
